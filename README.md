@@ -23,7 +23,7 @@ After applying stratified train-test split, these are the counts in the training
 * Training Set: 3620 Ham and Spam 560
 * Test Set: 1207 Ham and 187 Spam 
 *
-## ** Preprocessing:**
+## **Preprocessing:**
 
 As we are aware that inorder to obtain best classification results, preprocessing of the data is the most important thing in data science tasks, as it helps our model to learn from data and not things which we dont want our model to learn from.
 
