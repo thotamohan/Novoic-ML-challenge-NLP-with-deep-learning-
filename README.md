@@ -61,6 +61,10 @@ The top keywords are as follows:
 |time |0.012096|
 |good |0.011865|
 
+## **K-means Clustering:**
+
+In addition to the deep learning model, K-means clustering is also performed for the classification of spam and ham messages. After performing the clustering, the top keywords as per tf-idf in both the tasks are visualized.
+
 
 
 
