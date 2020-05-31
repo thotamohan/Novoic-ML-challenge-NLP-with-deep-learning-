@@ -38,7 +38,28 @@ In this model, binary cross-entropy loss is used and adam-optimizer is used to f
 ## **Results:**
 After performing the classification task, the results are as follows
 * **F1 score of 95.55% is obtained.**
-* precision and recall of **99.42%** and **91.98%** respectively.
+* **precision and recall of 99.42% and 91.98% respectively.**
+* The confusion matrix is also displayed.
+  |   |predicted label
+
+
+## **Unsupervised Clustering:**
+
+Using term frequency and inverse document frequency, text is analyzed in order to find the top key words in the messages.
+The top keywords are as follows:
+
+|features |    score|
+|-----|-----|
+|im | 0.020115|
+|ok | 0.019064|
+|come|0.015771|
+|ill|0.014245|
+|ur|0.013168|
+|ltgt|0.012627|
+|dont|0.012480|
+|know|0.012359|
+|time |0.012096|
+|good |0.011865|
 
 
 
