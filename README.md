@@ -15,12 +15,33 @@ Since this is an open-ended challenge, we are welcomed to use our creativity in 
 * Data exploration and visualization.
 * Unsupervised Clustering.
 
+## **Training and Test Dataset:**
 
+Firstly the label count is checked and it is known that there are a total of 4827 Ham and 747 Spam messages are there in the dataset which is an imbalanced dataset. Therefore in order to split the dataset into training set  and test set stratified train test split method is used as it can help in equal distribution of ham and spam in both the sets.
+
+After applying stratified train-test split, these are the counts in the training and test set:
+* Training Set: 3620 Ham and Spam 560
+* Test Set: 1207 Ham and 187 Spam 
+*
+## ** Preprocessing:**
+
+As we are aware that inorder to obtain best classification results, preprocessing of the data is the most important thing in data science tasks, as it helps our model to learn from data and not things which we dont want our model to learn from.
+
+For this task, I performed all preprocessing tasks with related to text data such as removing punctuation, removing of single digit and numeric, tokenized each message and the removal of all the stopwords in english as all the messages are english, and all the words are stemmatized and lemmatized.
 
 ## **Binary Classification:**
 
-Firstly the label count is checked and it is known that there are a total of 4827 Ham and 747 Spam messages are there in the dataset which is an imbalanced dataset. Therefore in order to split the dataset into training and test dataset stratified train test split method is used which helps 
+Here inorder to perform the binary classification, Bidirectional LSTM layer is used along with maxpool, relu dense layer, dropout  and sigmoid dense layer is used in the end.
+
+In this model, binary cross-entropy loss is used and adam-optimizer is used to find minima and accuracy is used as metric.
+
+## **Results:**
+After performing the classification task, the results are as follows
+* **F1 score of 95.55% is obtained.**
+* precision and recall of **99.42%** and **91.98%** respectively.
 
 
-For this task, I performed all preprocessing tasks with related to text data such as removing punctuation, 
+
+
+
 
