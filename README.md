@@ -40,7 +40,8 @@ After performing the classification task, the results are as follows
 * **F1 score of 95.55% is obtained.**
 * **precision and recall of 99.42% and 91.98% respectively.**
 * The confusion matrix is also displayed.
-  |   |predicted label
+
+![Image of Sensorplacement](https://github.com/thotamohan/Novoic-ML-challenge-NLP-with-deep-learning-/blob/master/SMS-confusion.png)
 
 
 ## **Unsupervised Clustering:**
@@ -64,6 +65,9 @@ The top keywords are as follows:
 ## **K-means Clustering:**
 
 In addition to the deep learning model, K-means clustering is also performed for the classification of spam and ham messages. After performing the clustering, the top keywords as per tf-idf in both the tasks are visualized.
+
+![Image of Sensorplacement](https://github.com/thotamohan/Novoic-ML-challenge-NLP-with-deep-learning-/blob/master/clustering-results.png)
+
 
 
 
