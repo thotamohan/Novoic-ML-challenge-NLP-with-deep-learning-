@@ -74,7 +74,7 @@ From the above figure we could see that spam messages mostly consists of words l
 
 Then going further using this important spam keywords we can further group messages based on the keyword
 
-Where as in the case of ham messages, the top words present are ok, im, home,come which are used in day-day activities
+Where as in the case of ham messages, the top words present are **ok, im, home,come** which are used in day-day activities
 
 
 
